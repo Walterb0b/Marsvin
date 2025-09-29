@@ -29,5 +29,11 @@ public class Test {
         for(Marsvin m : marsvinList){
             System.out.println(m);
         }
+        System.out.println();
+        Collections.sort(marsvinList, new CompareName());
+        System.out.println("Sorted by name");
+        for(Marsvin m : marsvinList){
+            System.out.println(m);
+        }
     }
 }

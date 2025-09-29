@@ -1,4 +1,8 @@
-public class FileHandler {
-    String fileName = "Marsvin.csv";
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
-}
+public class FileHandler {
+
+    }
+
