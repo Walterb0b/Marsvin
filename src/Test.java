@@ -35,5 +35,17 @@ public class Test {
         for(Marsvin m : marsvinList){
             System.out.println(m);
         }
+        System.out.println();
+        Collections.sort(marsvinList, new CompareRace());
+        System.out.println("Sorted by race");
+        for(Marsvin m : marsvinList){
+            System.out.println(m);
+        }
+        System.out.println();
+        Collections.sort(marsvinList, new CompareAppetite());
+        System.out.println("Sorted by appetite");
+        for(Marsvin m : marsvinList){
+            System.out.println(m);
+        }
     }
 }
