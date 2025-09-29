@@ -25,7 +25,7 @@ public class Test {
         } catch(IOException e){
             System.out.println("Error while reading " + e.getMessage());
         }
-
+        System.out.println("List of guinea pigs");
         for(Marsvin m : marsvinList){
             System.out.println(m);
         }
